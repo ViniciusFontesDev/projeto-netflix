@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 689px) and (max-width: 887px){
+    header button.botaoum{
+        margin-left: 200px;
+    }
+
+    header img#imgmaior{
+        display: none;
+        width: 120px;
+        text-align: left;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.448);
+    }
+    
+    header img#imgmenor{
+        display: none;
+    }
+
+    header{
+        background-position: top center;
+    }
+
+    div#horizontalhp{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+        height: 500px;
+        width: 100vw;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    div#horizontalhp > img{
+        flex-basis: auto;
+    }
+}
+
+
+@media screen and (min-width: 887px) and (max-width: 1088px){
+    header button.botaoum{
+        margin-left: 400px;
+    }
+
+    header img#imgmaior{
+        display: none;
+        width: 140px;
+        text-align: left;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.448);
+    }
+    
+    header img#imgmenor{
+        display: none;
+    }
+
+    header{
+        background-position: center center;
+    }
+
+    div#horizontalhp{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+        width: 200vw;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    
+    div#horizontalhp > img{
+        flex-basis: 200px;
+    }
+}
+
+
+@media screen and (min-width: 1088px) and (max-width: 1288px){
+    header button.botaoum{
+        margin-left: 600px;
+    }
+
+    header img#imgmaior{
+        display: none;
+        width: 140px;
+        text-align: left;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.448);
+    }
+    
+    header img#imgmenor{
+        display: none;
+    }
+
+    header{
+        background-position: center center;
+    }
+
+    div#horizontalhp{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+        width: 160vw;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    
+    div#horizontalhp > img{
+        flex-basis: 200px;
+    }
+}
+
+
+@media screen and (min-width: 1288px){
+    header button.botaoum{
+        margin-left: 900px;
+    }
+
+    header img#imgmaior{
+        display: none;
+        width: 140px;
+        text-align: left;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.448);
+    }
+    
+    header img#imgmenor{
+        display: none;
+    }
+
+    header{
+        background-position: center center;
+    }
+
+    div#horizontalhp{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+        width: 140vw;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    
+    div#horizontalhp > img{
+        flex-basis: 200px;
+    }
+}
+
